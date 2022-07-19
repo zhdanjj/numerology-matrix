@@ -1,0 +1,47 @@
+.MatrixScreen {
+  display: flex;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.MatrixScreen__tableWrap {
+
+}
+
+.MatrixScreen__inner {
+
+}
+
+.MatrixScreen__table {
+  text-align: center;
+  line-height: 1.5;
+  border-collapse: collapse;
+  background: #fff;
+  margin: auto;
+}
+
+.MatrixScreen__table td {
+  border: 2px solid var(--bg-primary);
+  padding: 8px;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.MatrixScreen__boldLabel {
+  font-weight: bold;
+}
+
+.MatrixScreen__highlightedCell {
+  background-color: #E3DFEB;
+}
+
+.MatrixScreen__btnBack {
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 440px) {
+  .MatrixScreen__table {
+    width: 320px;
+    font-size: 12px;
+  }
+}
